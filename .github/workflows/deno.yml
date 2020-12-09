@@ -1,4 +1,4 @@
-name: Update chn_ip.txt
+name: Upd1e chn_ip.txt
 on:
   schedule:
     - cron: "* * * * *"
@@ -19,6 +19,6 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           push-branch: 'master'
-          commit-message: 'Update chn_ip.txt'
+          commit-message: 'Upd1e chn_ip.txt'
           name: GitHub Action
           email: action@github.com
